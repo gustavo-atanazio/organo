@@ -55,9 +55,9 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Fulano',
+      nome: 'Exemplo',
       cargo: 'Exemplo',
-      imagem: 'https://github.com/gustavo-atanazio.png',
+      imagem: '',
       time: times[2].nome,
     }
   ];
