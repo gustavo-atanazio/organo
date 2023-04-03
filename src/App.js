@@ -77,7 +77,7 @@ function App() {
       <Formulario
         cadastrarTime={cadastrarTime}
         times={times.map(time => time.nome)} 
-        aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])}
+        aoCadastrar={colaborador => setColaboradores([...colaboradores, {...colaborador, id: uuidv4()}])}
       />
       {times.map(time => 
         <Time
