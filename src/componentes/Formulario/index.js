@@ -12,7 +12,7 @@ const Formulario = (props) => {
     const [time, setTime] = useState('');
 
     const [nomeTime, setNomeTime] = useState('');
-    const [corTime, setCorTime] = useState('');
+    const [corTime, setCorTime] = useState('#000');
 
     const aoSalvar = (evento) => {
         evento.preventDefault();
